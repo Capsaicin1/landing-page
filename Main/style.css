@@ -131,4 +131,39 @@ a {
 .box:hover{
     transform: scale(1.05) perspective(1px);
 }
+
 /* Info Section End */
+
+/* Quote Section */
+
+#quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-basis: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote__container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote__container p{
+    font-size: 46px;
+    font-weight:lighter;
+    color: #1F2937;
+}
+
+.quote__container h1{
+    margin: -20px 20px 0 0;
+    align-self: flex-end;
+    font-size: 30px;
+}
+
+/* Quote Section End */
+
+/* Footer Section */
+/* Footer Section End*/
