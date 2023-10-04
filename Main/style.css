@@ -166,4 +166,63 @@ a {
 /* Quote Section End */
 
 /* Footer Section */
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+    justify-content: space-between;
+}
+
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.cta__container{
+    background-color: #3882f6;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta__container button{
+    background-color:#3882f6;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.cta__container button:hover{
+    transform: scale(1.1) perspective(1px);
+}
+
+.cta__container-text h2{
+ color: #f9faf8;
+ font-size: 24px;
+}
+
+.cta__container-text p{
+ margin-top: -2px;
+ color: white;
+ font-size: 18px;
+}
+
+.footer{
+    flex-shrink: 0;
+    text-align: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
 /* Footer Section End*/
