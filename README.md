@@ -1,7 +1,8 @@
 # landing-page
 
 - Landing page for a dummy website.
-- Main focus for this project is ==FlexBox==
+- Main focus for this project is FlexBox.
+- For **The Odin Project**
 
-[^1]: For the Odin Project
+
 
